@@ -1,0 +1,22 @@
+# 忽略 VS Code 的本地历史记录
+.history/
+
+# 忽略指定的 PDF 报告文件
+mini projects RTS 2025-2026 (1).pdf
+
+# 如果你确定不想上传图片文件夹，请取消下面这行的注释
+images/
+
+# 忽略安装包和压缩包
+*.exe
+*.zip
+*.pptx
+*.pdf
+
+# 忽略巨大的数据文件
+*.dat
+
+# 忽略整个 TI SDK 库文件夹 (这是最占空间的)
+ti/
+software/
+applications/
