@@ -1,31 +1,33 @@
-# 📡 Remote Vital Sign Detection via 77GHz mmWave Radar
+# Contactless Vital-Sign Detection with 60 GHz FMCW Radar
 
-> **ENSEA Exchange Project (Oct 2025 – Jan 2026)**
-> Developed at **École Nationale Supérieure de l'Électronique et de ses Applications (ENSEA)**, France, under the supervision of **Prof. Chen**.
+An ENSEA exchange project on non-contact breathing- and heart-rate estimation using a Texas Instruments IWR6843ISK radar and phase-based micro-motion analysis.
 
----
+## Project website
 
-## 🚀 Interactive Research Report
-**To view the full technical analysis, mathematical derivations, and experimental results, please visit the project website:**
+Read the illustrated technical report: **[mmWave Radar Vital-Sign Detection](https://arnochanpolimi.github.io/mmWave-Radar-Vital-Sign-Detection/)**
 
-### 👉 [**CLICK HERE: Live Research Report & Results**](https://arnochanpolimi.github.io/mmWave-Radar-Vital-Sign-Detection/)
+## Scope
 
----
+The project covers the complete path from radar acquisition to vital-rate estimation:
 
-## 📖 Project Overview
-This project validates the feasibility of using **77GHz FMCW Radar** for non-contact monitoring of Heart Rate (HR) and Breathing Rate (BR). It covers the complete signal processing chain from IF signal acquisition to vibration extraction.
+- FMCW beat-signal and phase modelling;
+- range FFT and subject-bin selection;
+- phase extraction and unwrapping;
+- DC/static compensation and detrending;
+- respiratory and cardiac frequency analysis;
+- experimental visualization with the TI IWR6843ISK platform.
 
-### 🛠 Key Technical Contributions
-- **FMCW Signal Modeling:** Detailed derivation of Beat Frequency and Phase modulation.
-- **Signal Processing:** Implementation of Range-FFT and Vibration-FFT for sub-millimeter displacement tracking.
-- **Advanced Algorithms:** Phase Unwrapping, DC Compensation, and De-trending to isolate HR/BR components.
-- **Validation:** Comparative analysis with **Hexoskin** reference sensors.
+## Repository structure
 
-## 📂 Repository Structure
-- `index.md`: Source for the GitHub Pages report.
-- `/images`: Experimental setups, system diagrams, and result visualizations.
-- `/codes`: MATLAB/Python implementation of the processing chain.
-- `/reference`: Technical documentation and project background.
+- [`index.md`](./index.md) — source of the GitHub Pages report;
+- [`images/`](./images) — diagrams, hardware photographs, and experiment results;
+- [`codes/`](./codes) — processing and analysis code;
+- [`reference/`](./reference) — background material and technical references;
+- [`Project_ENSEA_Hong_and Ewan.pdf`](./Project_ENSEA_Hong_and%20Ewan.pdf) — project report;
+- [`PresentationProject_CHEN_ZAHRA-THENAULT.pptx`](./PresentationProject_CHEN_ZAHRA-THENAULT.pptx) — presentation slides.
 
----
-*Note: This project was completed as part of the TEL professional exchange program between Politecnico di Milano and ENSEA.*
+## Academic context
+
+Completed at École Nationale Supérieure de l'Électronique et de ses Applications (ENSEA), France, from October 2025 to January 2026, under the supervision of [Dr. Luan Chen](https://www.etis-lab.fr/2023/01/11/chen-luan/).
+
+> This repository documents an engineering prototype and research workflow; it is not a clinically validated medical device.
