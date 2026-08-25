@@ -13,7 +13,6 @@ window.MathJax = {
   .project-hero { padding: 2rem; margin: 1rem 0 2rem; border-radius: 18px; background: linear-gradient(135deg, #082f49 0%, #0369a1 62%, #0891b2 100%); color: #fff; }
   .project-hero h1 { margin: 0 0 .5rem; color: #fff; border: 0; }
   .project-hero p { margin: .35rem 0; }
-  .project-kicker { font-size: .84rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #bae6fd; }
   .project-meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: .75rem; margin-top: 1.4rem; }
   .project-meta div { padding: .75rem .9rem; border: 1px solid rgba(255,255,255,.22); border-radius: 12px; background: rgba(255,255,255,.08); }
   .project-meta strong { display: block; color: #e0f2fe; font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; }
@@ -28,12 +27,10 @@ window.MathJax = {
   .project-photo-row figure { margin: 0; }
   .project-photo-row img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 12px; }
   .project-note { padding: 1rem 1.1rem; margin: 1.2rem 0; border-left: 4px solid #0284c7; border-radius: 0 10px 10px 0; background: #f0f9ff; }
-  .project-links a { display: inline-block; margin: .25rem .45rem .25rem 0; padding: .55rem .85rem; border-radius: 999px; background: #0369a1; color: #fff; text-decoration: none; }
   @media (max-width: 680px) { .project-hero { padding: 1.3rem; } .project-grid, .project-photo-row { grid-template-columns: 1fr; } }
 </style>
 
 <section class="project-hero">
-  <div class="project-kicker">ENSEA exchange project · digital health · radar signal processing</div>
   <h1>Contactless Vital-Sign Detection with 60 GHz FMCW Radar</h1>
   <p>From raw radar samples to breathing- and heart-rate estimation through range selection and phase-based micro-motion analysis.</p>
   <div class="project-meta">
@@ -181,13 +178,5 @@ Recommended next steps are to:
 - report performance across multiple subjects, ranges, and orientations;
 - quantify confidence or signal quality instead of returning a rate for every frame;
 - package acquisition parameters and processing settings into a reproducible configuration.
-
-## Project resources
-
-<div class="project-links">
-  <a href="./Project_ENSEA_Hong_and%20Ewan.pdf">Project report (PDF)</a>
-  <a href="./PresentationProject_CHEN_ZAHRA-THENAULT.pptx">Presentation (PPTX)</a>
-  <a href="https://github.com/ArnoChanPolimi/mmWave-Radar-Vital-Sign-Detection">Source repository</a>
-</div>
 
 <p style="margin-top:2rem;color:#64748b;font-size:.9rem">Completed at École Nationale Supérieure de l'Électronique et de ses Applications (ENSEA), France, under the supervision of <a href="https://www.etis-lab.fr/2023/01/11/chen-luan/" target="_blank" rel="noopener noreferrer">Dr. Luan Chen</a>.</p>

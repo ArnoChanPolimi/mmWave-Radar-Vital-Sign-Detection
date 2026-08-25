@@ -23,8 +23,6 @@ The project covers the complete path from radar acquisition to vital-rate estima
 - [`images/`](./images) — diagrams, hardware photographs, and experiment results;
 - [`codes/`](./codes) — processing and analysis code;
 - [`reference/`](./reference) — background material and technical references;
-- [`Project_ENSEA_Hong_and Ewan.pdf`](./Project_ENSEA_Hong_and%20Ewan.pdf) — project report;
-- [`PresentationProject_CHEN_ZAHRA-THENAULT.pptx`](./PresentationProject_CHEN_ZAHRA-THENAULT.pptx) — presentation slides.
 
 ## Academic context
 
